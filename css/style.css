@@ -34,25 +34,12 @@
       width: 80%;
       margin: 20px auto;
       color: #474545; }
-    .login .main-content .close {
-      font-size: 3rem;
-      font-weight: 500;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-      position: absolute;
-      cursor: pointer;
-      top: -5px;
-      right: 12px;
-      color: #bbb8b8; }
-    .login .main-content .close:hover {
-      color: #e03131; }
-    .login .main-content .image {
-      width: 30%;
-      margin: 5px auto; }
-      .login .main-content .image img {
-        width: 100%;
-        border-radius: 50%; }
+    .login .main-content .msg {
+      text-align: center;
+      color: #fc7d7d;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      display: none; }
     .login .main-content .form-group {
       border: 1px solid #5e5e5e;
       display: -webkit-box;
@@ -158,7 +145,8 @@
         width: 100%;
         height: 100vh; } }
     .gen_pass .main-content h2 {
-      text-align: center; }
+      text-align: center;
+      color: #474545; }
     .gen_pass .main-content .button-holder {
       display: block;
       -webkit-box-pack: justify;
@@ -216,9 +204,9 @@
   width: 100%;
   height: 100%; }
   .account .main-content {
-    width: 40%;
+    width: 60%;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     border-radius: 10px;
     -webkit-box-shadow: 4px 6px 10px black;
@@ -232,7 +220,7 @@
         width: 100%;
         height: 100vh; } }
     .account .main-content h2 {
-      text-align: center; }
+      color: #474545; }
     .account .main-content .button-holder {
       display: block;
       -webkit-box-pack: justify;
@@ -257,7 +245,8 @@
         margin-top: 70px; }
     .account .main-content p {
       color: #777474;
-      padding: 75px auto 10px; }
+      padding: 0px;
+      line-height: 25px; }
       @media (max-width: 768px) {
         .account .main-content p {
           font-size: .9rem; } }

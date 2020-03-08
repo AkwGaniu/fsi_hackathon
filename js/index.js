@@ -1,3 +1,6 @@
+const msg = document.querySelector(".msg")
+
+
 const sourceUrl = document.querySelector('#sourceUrl')
 const baseUrl = document.querySelector('#baseUrl')
 const userInfo  = document.querySelector('.bar')
